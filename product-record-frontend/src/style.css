@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #EAE0C8;        
+  --secondary-color: #536878;    
+  --accent-color: #536878;         
+  --accent-color-hover: #536878;     
+  --danger-color: #dc3545;
+  --danger-color-hover: #c82333;
+
+  --app-bg-color: #ffffff;         
+  --content-bg-color: #ffffff;     
+  --card-bg-color: var(--primary-color); 
+  --header-bg-color: var(--secondary-color);
+  --filter-bg-color: #F1EFEC;       
+  --text-color: #212529;
+  --text-color-light: #f8f9fa;
+  --border-color: #dee2e6;
+  --light-gray: #f1f3f5;
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --border-radius-sm: 6px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+  
+  --font-family-sans: Arial, sans-serif;
+  --font-weight-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--app-bg-color);
+  font-family: var(--font-family-sans);
+  color: var(--text-color);
+}
